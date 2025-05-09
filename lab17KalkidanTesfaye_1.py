@@ -33,7 +33,7 @@ for submission_id in submission_ids[:30]:
         }
         submission_dicts.append(submission_dict)
     except KeyError:
-        print('skipping submmission')
+        print(f"Skipping submmission {submission_id} -missing descendants")
         continue
 
 submission_dicts = sorted(submission_dicts, key=itemgetter('comments'),
