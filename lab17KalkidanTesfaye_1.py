@@ -3,7 +3,7 @@
 # Description: Refactored hacker news script that avoids the key error missing "descendants"
 # Date: 05/09/2025  
 
-# from the book: hn
+# from the book
 from operator import itemgetter
 
 import requests
